@@ -16,4 +16,5 @@ Scenario: Exploración de marcadores en el mapa
 Scenario: Visualización de centros de salud
     Given que el mapa contiene capas de información
     When el usuario navega por el mapa
-    Then debe poder identificar íconos diferenciados para los establecimientos de salud (marcador azul) [cite: 1101]
+
+    Then debe poder identificar íconos diferenciados para los establecimientos de salud (marcador azul) 

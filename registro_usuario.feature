@@ -20,5 +20,6 @@ Scenario: Registro exitoso con todos los campos válidos
 Scenario: Fallo en el registro por formato de correo inválido
     Given que el usuario ingresa "juan.com" en el campo "Correo electrónico"
     When hace clic en el botón "Crear Cuenta"
-    Then el sistema debe mostrar un mensaje de error "Formato de correo no válido" [cite: 998]
+    Then el sistema debe mostrar un mensaje de error "Formato de correo no válido"
+
     And no debe redirigir a la página de login
